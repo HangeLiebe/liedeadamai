@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>New Year Crossword</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f0f8ff;
+      text-align: center;
+      padding: 20px;
+    }
+    h1 {
+      color: #d42426;
+    }
+    .crossword {
+      display: inline-block;
+      margin: 20px auto;
+      border: 2px solid #333;
+    }
+    .crossword td {
+      width: 40px;
+      height: 40px;
+      border: 1px solid #333;
+      text-align: center;
+      font-weight: bold;
+      font-size: 18px;
+      background-color: #fff;
+    }
+    .black {
+      background-color: #333;
+    }
+    .clues {
+      max-width: 500px;
+      margin: 20px auto;
+      text-align: left;
+    }
+    .clues h2 {
+      color: #2c5530;
+    }
+    .clue {
+      margin: 8px 0;
+    }
+  </style>
+</head>
+<body>
+  <h1>🎄 New Year Crossword Puzzle</h1>
+
+  <table class="crossword">
+    <tr>
+      <td>S</td><td>N</td><td>O</td><td>E</td><td class="black"></td>
+    </tr>
+    <tr>
+      <td class="black"></td><td>O</td><td class="black"></td><td>L</td><td class="black"></td>
+    </tr>
+    <tr>
+      <td class="black"></td><td>R</td><td>E</td><td>F</td><td>E</td>
+    </tr>
+    <tr>
+      <td class="black"></td><td>E</td><td class="black"></td><td class="black"></td><td>V</td>
+    </tr>
+    <tr>
+      <td class="black"></td><td class="black"></td><td class="black"></td><td class="black"></td><td>E</td>
+    </tr>
+  </table>
+
+  <div class="clues">
+    <h2>Clues:</h2>
+    <div class="clue"><strong>Across:</strong></div>
+    <div class="clue">1. White flakes that fall in winter (4 letters)</div>
+    <div class="clue">2. Decorated pine in living rooms at Christmas (4 letters)</div>
+    <div class="clue"><strong>Down:</strong></div>
+    <div class="clue">3. Santa’s helper (3 letters)</div>
+    <div class="clue">4. Another word for Christmas (4 letters)</div>
+    <div class="clue">5. December 24th, e.g., Christmas ___ (3 letters)</div>
+  </div>
+
+  <div style="margin-top: 30px; font-size: 14px; color: #666;">
+    <p><em>Answers: 1. SNOW, 2. TREE, 3. ELF, 4. NOEL, 5. EVE</em></p>
+  </div>
+</body>
+</html>
